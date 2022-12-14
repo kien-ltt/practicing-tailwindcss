@@ -1,0 +1,13 @@
+{
+  "name": "clipboard-website",
+  "version": "1.0.0",
+  "description": "Project for practicing TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
