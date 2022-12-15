@@ -1,31 +1,19 @@
-# Simple Tailwind CSS Starter
+# Fylo Website
 
-This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
+Landing page for a website named Fylo
+
+## Demo
+
+Demo can be found [here](https://unique-dolphin-fec722.netlify.app/)
 
 ## Usage
 
-Install dependencies
-
 ```
+// Install dependencies
 npm install
 ```
 
-Run Tailwind CLI in watch mode
-
 ```
+// Run tailwind CLI
 npm run watch
 ```
-
-You can use tailwind classes in any .html files in the root directory
-
-Put any custom CSS that you may have in the **input.css** file
-
-Add any config values to the **tailwind.config.js** file
-
-To build once, run
-
-```
-npm run build
-```
-
-You only need to deploy your html files and css/style.css
